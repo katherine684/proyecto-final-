@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-contenedor">
+    <img src="imagenes/logo negocio.png" class="logo">
+
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="Nosotros.html">Sobre Nosotros</a>
+      <a href="contactos.html">Contacto</a>
+       <a href="#" class="carrito-icono"><i class="fas fa-shopping-cart"></i></a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTACTO -->
+<section class="contacto">
+  <h1>Contáctanos</h1>
+  <p>Estamos aquí para ayudarte. Escríbenos o visítanos.</p>
+
+  <div class="contacto-contenedor">
+
+    <!-- FORMULARIO -->
+    <form class="formulario">
+      <h2>Envíanos un mensaje</h2>
+
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+
+      <select required>
+        <option value="">Selecciona un asunto</option>
+        <option>Consulta</option>
+        <option>Pedido</option>
+        <option>Soporte</option>
+      </select>
+
+      <textarea placeholder="Escribe tu mensaje..." required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+         <p id="mensaje-exito" style="display:none; color:#4CAF50; font-weight:bold; margin-top:15px;">
+  ✅ Mensaje recibido correctamente. ¡Te responderemos pronto!
+    </form>
+
+</p>
+    <!-- INFORMACIÓN -->
+    <div class="info-contacto">
+      <h2>Información</h2>
+
+      <p><strong>📍 Dirección:</strong> Valverde, Mao, República Dominicana</p>
+      <p><strong>📞 Teléfono:</strong> 809-228-8044</p>
+      <p><strong>✉️ Email:</strong> pijamasmargarita@gmail.com</p>
+       <div class="redes">
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/pijamas_margarita_/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=18092288044" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      <h3>Horario</h3>
+      <p>Lunes - Viernes: 8:00 AM - 6:00 PM</p>
+      <p>Sábados: 9:00 AM - 2:00 PM</p>
+
+      <!-- MAPA -->
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1879.9415874105564!2d-71.07528246165212!3d19.546628523073913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDMyJzQ3LjkiTiA3McKwMDQnMjYuNCJX!5e0!3m2!1ses-419!2sdo!4v1773790341333!5m2!1ses-419!2sdo" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+ <div class="footer-contenedor">
+ <div class="footer-col"> 
+<h3>Acerca de Pijamas Margarita</h3>
+<p> Pijamas Margarita nació con el propósito de ofrecer comodidad, suavidad y estilo en cada momento de descanso. </p>
+</div> <div class="footer-col"> 
+<h3>¿Cómo podemos ayudarte?</h3> 
+<p>Tel: 809-228-8044</p> 
+<p>WhatsApp: 809-228-8044</p> 
+<p>Horario: 9:00 AM - 9:00 PM</p> 
+<p>Correo: contacto@pijamasmargarita.com</p> 
+</div> 
+<div class="footer-col">
+ <h3>Enlaces</h3> 
+ <ul> 
+<li><a href="index.html">Inicio</a></li> 
+<li><a href="Productos.html">Productos</a></li>
+<li><a href="Nosotros.html">Nosotros</a></li> 
+<li><a href="contactos.html">Contacto</a></li> 
+</ul> </div> 
+<div class="footer-col"> 
+<h3>Suscríbete</h3> 
+<input type="email" placeholder="Tu correo"> 
+<button>Suscribirse</button> 
+</div> 
+</div> 
+<div class="footer-bottom"> 
+<p>© 2026 Pijamas Margarita</p> 
+</div> 
+</footer>
+
+</body>
+<script src="componentes.js"></script>
+</html>
